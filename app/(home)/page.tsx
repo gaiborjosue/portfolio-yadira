@@ -1,3 +1,4 @@
+/* eslint-disable react/no-children-prop */
 "use client"
 
 import React, {useEffect, useState, Suspense} from 'react'
@@ -32,7 +33,7 @@ export default function page() {
     {!isLoading &&
     <div className='h-screen bg-black'>
       
-      <ColorSwapper>
+      <ColorSwapper className={undefined}>
         <ColorSwapper.Portal />
         <ColorSwapper.Group className="relative px-8">
           <ColorSwapper.Block className="" activeClass="bg-black">
