@@ -12,6 +12,8 @@ import SparkSection from './components/SparkSection'
 
 import { ColorSwapper } from "./components/lunar/ColorSwapper"
 import LoadingPage from './components/LoadingPage'
+import { IconHome, IconBrandLinkedin, IconBrain } from "@tabler/icons-react";
+import { FloatingNav } from "./components/aceternity/floating-navbar";
 
 export default function page() {
 
@@ -27,18 +29,39 @@ export default function page() {
 
   const text = "I am currently pursuing my PhD in Physics with a focus on Astrophysics at MIT, expected to graduate in 2026. I hold a Bachelor of Science in Physics with an emphasis in Astronomy and Astrophysics, along with a minor in Mathematics and a Computational Science Certificate from Missouri State University, where I graduated in May 2021."
 
+  const navItems = [
+    {
+      name: "Home",
+      link: "/",
+      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "Experience",
+      link: "/experience",
+      icon: <IconBrain className="h-4 w-4 text-neutral-500 dark:text-white" />,
+    },
+    {
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/in/yadiragaibor/",
+      icon: (
+        <IconBrandLinkedin className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
+    },
+  ];
+
   return (
   <>
     {isLoading && <LoadingPage />} 
     {!isLoading &&
+    <div className="relative  w-full">
+      <FloatingNav navItems={navItems} /> &&
     <div className='h-screen bg-black'>
       
       <ColorSwapper className={undefined}>
         <ColorSwapper.Portal />
         <ColorSwapper.Group className="relative px-8">
           <ColorSwapper.Block className="" activeClass="bg-black">
-            <div className='max-w-7xl mx-auto p-5'>
-              <Navbar />
+            <div className='max-w-7xl mx-auto'>
               <HeroSection />
             </div>
           </ColorSwapper.Block>
@@ -97,6 +120,8 @@ export default function page() {
       </ColorSwapper>
       
     </div>
+    </div>
+    
     }
   </>
     

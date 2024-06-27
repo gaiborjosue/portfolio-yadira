@@ -27,7 +27,6 @@ export default function HeroSection() {
           <p>I am a PhD Candidate at MIT's Physics Department, unraveling the mysteries of exoplanets and binary systems with the TESS team 🖖</p>
         </div>
 
-
       </div>
     </>
   )
