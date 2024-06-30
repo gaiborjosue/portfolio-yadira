@@ -113,7 +113,7 @@ export default function page() {
 
 
           <ColorSwapper.Block className="" activeClass="bg-black" id="publications">
-            <div className='mx-auto'>
+            <div className='max-w-7xl mx-auto'>
               <SparkSection />
               <FooterMinimal />
             </div>
