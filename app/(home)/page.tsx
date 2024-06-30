@@ -15,6 +15,8 @@ import LoadingPage from './components/LoadingPage'
 import { IconHome, IconBrandLinkedin, IconBrain } from "@tabler/icons-react";
 import { FloatingNav } from "./components/aceternity/floating-navbar";
 
+import FooterMinimal from "./components/Footer";
+
 export default function page() {
 
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -32,12 +34,12 @@ export default function page() {
   const navItems = [
     {
       name: "Home",
-      link: "/",
+      link: "#home",
       icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
       name: "Experience",
-      link: "/experience",
+      link: "#experience",
       icon: <IconBrain className="h-4 w-4 text-neutral-500 dark:text-white" />,
     },
     {
@@ -60,14 +62,14 @@ export default function page() {
       <ColorSwapper className={undefined}>
         <ColorSwapper.Portal />
         <ColorSwapper.Group className="relative px-8">
-          <ColorSwapper.Block className="" activeClass="bg-black">
+          <ColorSwapper.Block className="" activeClass="bg-black" id="home">
             <div className='max-w-7xl mx-auto'>
               <HeroSection />
             </div>
           </ColorSwapper.Block>
 
 
-          <ColorSwapper.Block className="" activeClass="bg-[#1a1a2e]">
+          <ColorSwapper.Block className="" activeClass="bg-[#1a1a2e]" id="about">
             <div className='max-w-7xl mx-auto p-5'>
               <TextReveal body={text} className="relative mx-auto h-[200vh] w-full max-w-lg">
                 {(tokens: any[]) => (
@@ -95,7 +97,7 @@ export default function page() {
             </div>
           </ColorSwapper.Block>
 
-          <ColorSwapper.Block className="" activeClass="bg-[#1a1a2e]">
+          <ColorSwapper.Block className="" activeClass="bg-[#1a1a2e]" id="experience">
             <div className='max-w-7xl mx-auto p-5'>
               <Experience />
             </div>
@@ -103,21 +105,25 @@ export default function page() {
 
 
 
-          <ColorSwapper.Block className="" activeClass="bg-[#16213e]">
+          <ColorSwapper.Block className="" activeClass="bg-[#16213e]" id="gallery">
             <div className='max-w-7xl mx-auto p-5'>
               <Gallery />
             </div>
           </ColorSwapper.Block>
 
 
-          <ColorSwapper.Block className="" activeClass="bg-black">
+          <ColorSwapper.Block className="" activeClass="bg-black" id="publications">
             <div className='mx-auto'>
               <SparkSection />
+              <FooterMinimal />
             </div>
           </ColorSwapper.Block>
 
         </ColorSwapper.Group>
+        
       </ColorSwapper>
+
+      
       
     </div>
     </div>

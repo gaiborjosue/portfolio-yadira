@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(home)/components/lunar/ColorSwapper.jsx", "app/(home)/components/lunar/Sparkles.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(home)/components/lunar/ColorSwapper.jsx", "app/(home)/components/lunar/Sparkles.jsx", "app/(home)/components/Footer.jsx"],
   "exclude": ["node_modules"]
 }

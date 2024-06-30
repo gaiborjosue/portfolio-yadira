@@ -26,7 +26,7 @@ export default function Page() {
               <div className="flex flex-1 w-full rounded-lg mt-4 bg-cover bg-center" style={{backgroundImage: "url('/images/paper_1.webp')"}} />
             </div>
           </PinContainer>
-        </div>
+      </div>
 
       <div className="relative -mt-60 h-96 w-full overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#8350e8,transparent_70%)] before:opacity-40 after:absolute after:-left-1/2 after:top-1/2 after:aspect-[1/0.7] after:w-[200%] after:rounded-[100%] after:border-t after:border-[#7876c566] after:bg-zinc-900">
         <Sparkles
