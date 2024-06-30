@@ -14,7 +14,7 @@ export default function Page() {
             title="/arxiv.org"
             href="https://arxiv.org/abs/2006.11276"
           >
-            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <div className="flex flex-col p-4 tracking-tight text-slate-100/50  w-[20rem] h-[20rem] ">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                 An Improved Spin-Down Rate for the Proposed White-Dwarf Pulsar AR Scorpii
               </h3>
