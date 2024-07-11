@@ -5,11 +5,9 @@ import SparklesText from "./magicui/sparkle-text";
 export default function Page() {
   return (
     <>
-      <div className="w-full mt-16">
         <div className="text-center text-4xl text-white">
           <SparklesText text="My Publications" />
         </div>
-      </div>
       <div className="h-[40rem] w-full items-center justify-center">
         <PinContainer
           title="/arxiv.org"
@@ -27,6 +25,9 @@ export default function Page() {
             <div className="flex flex-1 w-full rounded-lg mt-4 bg-cover bg-center" style={{ backgroundImage: "url('/images/paper_1.webp')" }} />
           </div>
         </PinContainer>
+
+
+
         <div className="relative h-96 w-full overflow-hidden [mask-image:radial-gradient(50%_50%,white,transparent)] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_bottom_center,#8350e8,transparent_70%)] before:opacity-40 after:absolute after:-left-1/2 after:top-1/2 after:aspect-[1/0.7] after:w-[200%] after:rounded-[100%] after:border-t after:border-[#7876c566] after:bg-zinc-900">
         <Sparkles
           density={1200}
