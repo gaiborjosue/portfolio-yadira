@@ -8,7 +8,7 @@ import Experience from './components/Experience'
 import clsx from "clsx"
 import { TextReveal } from "./components/lunar/TextReveal"
 import Gallery from './components/Gallery'
-import SparkSection from './components/SparkSection'
+import Spark from './components/SparkSection'
 
 import { ColorSwapper } from "./components/lunar/ColorSwapper"
 import LoadingPage from './components/LoadingPage'
@@ -114,7 +114,7 @@ export default function page() {
 
           <ColorSwapper.Block className="" activeClass="bg-black" id="publications">
             <div>
-              <SparkSection />
+              <Spark />
               <FooterMinimal />
             </div>
           </ColorSwapper.Block>

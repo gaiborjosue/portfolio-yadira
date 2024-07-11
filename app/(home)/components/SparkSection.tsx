@@ -2,7 +2,7 @@ import { Sparkles } from "./lunar/Sparkles"
 import { PinContainer } from "./aceternity/3d-pin";
 import SparklesText from "./magicui/sparkle-text";
 
-export default function Page() {
+export default function Spark() {
   return (
     <div>
       
