@@ -8,7 +8,7 @@ import Experience from './components/Experience'
 import clsx from "clsx"
 import { TextReveal } from "./components/lunar/TextReveal"
 import Gallery from './components/Gallery'
-import { AnimatedPinDemo } from './components/SparkSection'
+import { AnimatedPin } from './components/SparkSection'
 
 import { ColorSwapper } from "./components/lunar/ColorSwapper"
 import LoadingPage from './components/LoadingPage'
@@ -111,12 +111,18 @@ export default function page() {
             </div>
           </ColorSwapper.Block>
 
+          <ColorSwapper.Block className="" activeClass="bg-[#16213e]" id="publications">
+            <div className='max-w-7xl mx-auto'>
+              <AnimatedPin />
+              <FooterMinimal />
+            </div>
+          </ColorSwapper.Block>
+
         </ColorSwapper.Group>
         
       </ColorSwapper>
 
-      <AnimatedPinDemo />
-      <FooterMinimal />
+      
     </div>
     </div>
     
