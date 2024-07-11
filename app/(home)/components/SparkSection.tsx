@@ -18,7 +18,7 @@ export function AnimatedPinDemo() {
               Read more about my most recent publication. 📄
             </span>
           </div>
-          <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+          <div className="flex flex-1 w-full rounded-lg mt-4 bg-cover" style={{ backgroundImage: "url('/images/paper_1.webp')" }} />
         </div>
       </PinContainer>
     </div>
