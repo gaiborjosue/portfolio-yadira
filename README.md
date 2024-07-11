@@ -1,3 +1,5 @@
+![image](https://github.com/gaiborjosue/portfolio-yadira/assets/78832141/b4d28dbd-9a34-4ab8-b5df-c0b0d68f576b)
+
 # Yadira's Portfolio
 
 Welcome to the portfolio website I designed and built for my client! This website showcases her academic and professional journey, including projects, publications, and other achievements.
