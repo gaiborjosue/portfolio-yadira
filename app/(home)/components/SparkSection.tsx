@@ -1,3 +1,5 @@
+"use client"
+
 import { Sparkles } from "./lunar/Sparkles"
 import { PinContainer } from "./aceternity/3d-pin";
 import SparklesText from "./magicui/sparkle-text";

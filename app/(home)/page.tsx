@@ -111,20 +111,12 @@ export default function page() {
             </div>
           </ColorSwapper.Block>
 
-
-          <ColorSwapper.Block className="" activeClass="bg-black" id="publications">
-            <div className='max-w-7xl mx-auto'>
-              <Spark />
-              <FooterMinimal />
-            </div>
-          </ColorSwapper.Block>
-
         </ColorSwapper.Group>
         
       </ColorSwapper>
 
-      
-      
+      <Spark />
+      <FooterMinimal />
     </div>
     </div>
     
