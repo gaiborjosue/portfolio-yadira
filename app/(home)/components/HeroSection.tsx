@@ -8,14 +8,15 @@ import { MagneticText } from "./MagneticText"
 import Meteors from "./magicui/meteors";
 
 export default function HeroSection() {
-  const text = "Nice to meet you!"
+  const text = "Hello, I'm Yadira Gaibor"
 
   return (
     <>
+      
       <div className="mx-auto sticky h-screen w-full flex flex-col items-center justify-center overflow-hidden">
         <div>
           <Meteors number={15} />
-          <MagneticText body={text} as="div" className="w-full text-center font-var text-4xl md:text-8xl">
+          <MagneticText body={text} as="div" className="w-full text-center font-var text-2xl md:text-6xl">
             {(tokens: any[]) =>
               tokens.map((token, index) => (
                 <MagneticText.Token key={index} body={token} className="inline-block cursor-default whitespace-pre" />

@@ -6,15 +6,15 @@ export default function Page() {
   return (
     <div className="h-screen w-full mt-16">
       
-      <div className="h-[40rem] w-full items-center justify-center ">
-      <div className="text-center text-4xl text-white mb-20">
-          <SparklesText text="My Publications" />
-      </div>
+      <div className="h-auto min-h-[40rem] w-full items-center justify-center px-4 sm:px-0">
+          <div className="text-center text-4xl text-white mb-20">
+              <SparklesText text="My Publications" />
+          </div>
           <PinContainer
             title="/arxiv.org"
             href="https://arxiv.org/abs/2006.11276"
           >
-            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+            <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-full sm:w-[20rem] h-auto sm:h-[20rem]">
               <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                 An Improved Spin-Down Rate for the Proposed White-Dwarf Pulsar AR Scorpii
               </h3>
