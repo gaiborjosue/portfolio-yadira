@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yadira's Portfolio
 
-## Getting Started
+Welcome to the portfolio website I designed and built for my client! This website showcases her academic and professional journey, including projects, publications, and other achievements.
 
-First, run the development server:
+## Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can visit the portfolio at [yadirag.vercel.app](https://yadirag.vercel.app).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Home Page:** An introduction to who she is and her current role.
+- **About Me:** Detailed information about her educational background, work experience, and research interests.
+- **Experience:** A showcase of the various projects she's worked on, including descriptions, technologies used, and people she has collaborated with.
+- **Publications:** A list of her published papers and articles, with links to the full texts.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Frontend Framework:** Built with Next.js
+- **Styling:** Tailwind CSS for modern and responsive design.
+- **Hosting:** Deployed on Vercel for seamless and efficient hosting.
+- **Backend:** None required; all data is fetched from static files.
