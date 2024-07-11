@@ -13,17 +13,13 @@ export default function Spark() {
           <PinContainer
             title="/arxiv.org"
             href="https://arxiv.org/abs/2006.11276"
+            containerClassName="w-full max-w-sm mx-auto"
           >
-            <div className="flex flex-col sm:basis-1/2 w-full sm:w-[20rem] h-auto sm:h-[20rem] p-4 tracking-tight text-slate-100/50">
-              <h3 className="max-w-xs !pb-2 !m-0 font-bold text-base text-slate-100">
-                An Improved Spin-Down Rate for the Proposed White-Dwarf Pulsar AR Scorpii
-              </h3>
-              <div className="text-base !m-0 !p-0 font-normal">
-                <span className="text-slate-500">
-                  Read more about my most recent publication. 📄
-                </span>
+            <div className="w-full h-64 bg-cover bg-center" style={{backgroundImage: "url('/images/paper_1.webp')"}}>
+              <div className="p-4 bg-black bg-opacity-50 text-white">
+                <h3 className="font-bold text-lg">An Improved Spin-Down Rate for the Proposed White-Dwarf Pulsar AR Scorpii</h3>
+                <p className="mt-2">Read more about my most recent publication. 📄</p>
               </div>
-              <div className="w-full h-48 sm:h-auto sm:flex-1 rounded-lg mt-4 bg-cover bg-center" style={{backgroundImage: "url('/images/paper_1.webp')"}} />
             </div>
           </PinContainer>
       </div>
