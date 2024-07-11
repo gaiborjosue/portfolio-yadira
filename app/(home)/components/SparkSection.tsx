@@ -4,7 +4,7 @@ import SparklesText from "./magicui/sparkle-text";
 
 export default function Page() {
   return (
-    <div className="h-screen w-full mt-16">
+    <div>
       
       <div className="h-auto min-h-[40rem] w-full items-center justify-center px-4 sm:px-0">
           <div className="text-center text-4xl text-white mb-20">
